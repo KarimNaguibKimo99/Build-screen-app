@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E"
+    tools:context=".KarimCafe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business name : Karim Cafe"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:background="#E65100"
+        android:textColor="@color/colorPrimaryDark"
+         />
+    <ImageView
+        android:src= "@drawable/coffee"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number : 01285804996"
+        android:background="#FFE57F"
+        android:paddingLeft="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E65100"
+        android:text=" Email:karimkimo129@gmail.com"
+        android:paddingLeft="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26A69A"
+        android:text="Website : www.karimkimo.com"
+        android:paddingLeft="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :23 Tarek Ben Ziad street , Mahalla EL-Koubra "
+        android:paddingLeft="8dp"
+        android:background="#8BC34A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discription: Represent Tea And coffee and nescafee and everything "
+        android:paddingLeft="8dp"
+        android:background="#69F0AE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Opens from 10 am to 12 am"
+        android:paddingLeft="8dp"
+        android:background="#827717"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
+</ScrollView>
